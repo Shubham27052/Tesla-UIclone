@@ -1,0 +1,77 @@
+.model3-container {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute;
+  top: 0; */
+  background-image: url(./../../../images/model-3.jpg);
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9.4rem;
+  padding-left: 4rem;
+}
+.headings-container3 h2 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: rgb(72, 72, 73);
+}
+.headings-container3 h5 {
+  padding-top: 0.5rem;
+  letter-spacing: 2px;
+  color: rgb(72, 72, 73);
+}
+
+.buttons-container3 {
+  width: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 26rem;
+}
+
+.order-btn3 {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  letter-spacing: 3px;
+}
+
+.inventory-btn3 {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: rgb(46, 45, 45);
+  background-color: rgb(228, 226, 226);
+  letter-spacing: 3px;
+}
+
+.down-arrow-container3 {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1.4rem;
+}
+.down-arrow-container3 svg {
+  color: rgb(26, 25, 25);
+}

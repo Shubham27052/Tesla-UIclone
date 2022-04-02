@@ -1,0 +1,65 @@
+.modelS-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./../../../images/model-s.jpg);
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings-containerS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.2rem;
+  padding-left: 10rem;
+}
+.headings-containerS h2 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  color: rgb(60, 60, 61);
+}
+.headings-containerS h5 {
+  padding-top: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.buttons-containerS {
+  width: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 26rem;
+}
+
+.order-btnS {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  letter-spacing: 3px;
+}
+
+.inventory-btnS {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: rgb(46, 45, 45);
+  background-color: rgb(228, 226, 226);
+  letter-spacing: 3px;
+}

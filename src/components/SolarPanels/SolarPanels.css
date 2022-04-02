@@ -1,0 +1,67 @@
+.modelsp-container {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute;
+  top: 0; */
+  background-image: url(./../../../images/solar-panel.jpg);
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings-containersp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.8rem;
+  padding-left: 4rem;
+}
+.headings-containersp h2 {
+  font-size: 3.4rem;
+  letter-spacing: 5px;
+  color: rgb(60, 60, 61);
+}
+.headings-containersp h5 {
+  padding-top: 1rem;
+  letter-spacing: 3px;
+}
+
+.buttons-containersp {
+  width: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27.3rem;
+}
+
+.order-btnsp {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  letter-spacing: 3px;
+}
+
+.inventory-btnsp {
+  width: 46%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: rgb(46, 45, 45);
+  background-color: rgb(228, 226, 226);
+  letter-spacing: 3px;
+}
